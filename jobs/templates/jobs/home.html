@@ -53,9 +53,6 @@
                   <li class="nav-item">
                       <a class="nav-link" href="{% static 'Resume.Safar.Kurbansho.pdf' %}">Resume</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="{% url 'allblogs' %}">Blog</a>
-                  </li>
               </ul>
           </div>
       </nav>
@@ -70,7 +67,8 @@
               <p>
                   <a href="mailto:safariko93@gmail.com" class="btn btn-primary my-2">Email Me</a>
               </p>
-              <img src = "{% static '1.jpg' %}" height = "300" />
+              <img src = "" height = "0" />
+              <h3 class="lead text-muted">These are my main interests:</h3>
           </div>
       </section>
 
@@ -100,6 +98,9 @@
 
   <footer class="text-muted">
       <div class="container text-center">
+          <br/>
+          <br/>
+          <br/>
           <p> © Safar Kurbansho {% now "Y" %}</p>
       </div>
   </footer>
